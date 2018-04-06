@@ -29,6 +29,6 @@ public class Bacteria {
 
     public double replicationRate(double c, double s, double s_max){
 
-        return growthRate(c, s, s_max) * (s/(K_prime + s));
+        return growthRate(c, s, s_max)*(s/(K_prime + s));
     }
 }
